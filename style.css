@@ -10,8 +10,8 @@ body {
 
 form {
   margin: 0 auto;
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
   border-radius: 10px;
   max-width: 350px;
   padding: 60px;
@@ -37,9 +37,9 @@ input {
   width: 100%;
   max-width: 300px;
   padding: 10px 40px 10px 10px;
-  background-color: rgb(237 237 237);
+  background-color: rgb(49 49 49);
   border-radius: 5px;
-  border: 1px solid #e6e6e6;
+  border: 1px solid #404040;
 }
 
 .show-password-btn {
