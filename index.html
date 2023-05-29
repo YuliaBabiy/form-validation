@@ -5,13 +5,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./style.css">
-  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <script src="https://www.google.com/recaptcha/api.js"></script>
   <title>Form Validation</title>
 </head>
 <body>
   
   <div class="container">
-    <form action="">
+    <form id="demo-form">
       <h1>Create Your Account</h1>
 
       <label for="name">First Name</label>
@@ -63,10 +63,14 @@
         </span>
       </div>
 
-      <div class="g-recaptcha" data-sitekey="6LfyCU0mAAAAABalhruLqKPiwAv40tjbFmOeUgf6"></div>
+      <div></div>
 
-      <button class="sing-up-btn">Sing Up</button>
+      <div
+        class="g-recaptcha"
+        data-sitekey="6LfyCU0mAAAAABalhruLqKPiwAv40tjbFmOeUgf6"
+      ></div>
       
+      <input type="submit" value="Submit">
 
     </form>
   </div>
