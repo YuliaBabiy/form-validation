@@ -41,6 +41,7 @@ input {
   background-color: rgb(49 49 49);
   border-radius: 5px;
   border: 1px solid #404040;
+  color: white;
 }
 
 input:focus {
