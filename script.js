@@ -42,7 +42,13 @@ const passwordConfirm = document.getElementById('password-confirm-input');
 
 
 passwordInput.addEventListener('input', function () {
+  const errorMessagesEl = document.querySelector('.error-message');
   const password = passwordInput.value;
+  if (password) {
+    errorMessagesEl.classList.add('show');
+  } else {
+    errorMessagesEl.classList.remove('show');
+  }
   validatePassword(password);
 });
 
