@@ -4,13 +4,14 @@
 }
 
 body {
-  background-color: rgb(206 206 206);
+  background-color: rgb(108 105 105);
   font-family: Monsterrat;
+  padding: 50px;
 }
 
 form {
   margin: 0 auto;
-  background-color: black;
+  background-color: #1b1b1b;
   color: white;
   border-radius: 10px;
   max-width: 350px;
@@ -40,6 +41,11 @@ input {
   background-color: rgb(49 49 49);
   border-radius: 5px;
   border: 1px solid #404040;
+}
+
+input:focus {
+  background-color: rgb(62, 62, 62);
+  color: white;
 }
 
 .show-password-btn {
@@ -75,6 +81,7 @@ input {
   background-color: rgb(246, 138, 61);
   color: white;
   max-width: initial;
+  cursor: pointer;
 }
 
 .checkbox {
